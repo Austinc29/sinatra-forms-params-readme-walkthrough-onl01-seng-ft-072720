@@ -4,6 +4,7 @@ class App < Sinatra::Base
 
 
   get '/food_form' do
+    "Hello World"
     erb :food_form
   end
 
